@@ -91,5 +91,9 @@ export const GlobalStyle = createGlobalStyle`
             margin: 10px auto;
         }
         
+        .task-box{
+            margin-top: 30px;
+            width: 90%;
+        }
     }
 `;
