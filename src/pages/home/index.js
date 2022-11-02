@@ -42,7 +42,7 @@ export function Home(){
     return (     
         <div>
             <ToastContainer/>
-            <Container>
+            <Container className="container">
                 <header>
                     <h1>O que temos para hoje?</h1>
                     <div className="todo">

@@ -1,5 +1,4 @@
-import {createGlobalStyle} from "styled-components"
-
+import styled, {createGlobalStyle} from "styled-components"
 export const GlobalStyle = createGlobalStyle`
     *{
         margin: 0;
@@ -86,4 +85,11 @@ export const GlobalStyle = createGlobalStyle`
         cursor: pointer;
     }
 
-`
+    @media(max-width: 700px){
+        .container{
+            width: 90%;
+            margin: 10px auto;
+        }
+        
+    }
+`;
